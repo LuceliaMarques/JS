@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+
+
+</head>
+<body class="display">
+
+    <main class="container display">
+
+        <h1 class="title">Calculadora Recursiva</h1>
+
+        <form action="/url" method="post" class="form display">
+
+            <input type="text" id="operando1" class="num" placeholder="Elemento 1" />
+            <input type="text" id="operando2" class="num" placeholder="Elemento 2" />
+
+            <label for="operador">Operação:</label>
+            <select id="operador" class="input" name="operador">
+                <option value="soma">Soma</option>
+                <option value="subtracao">Subtração</option>
+                <option value="multiplicacao">Multiplicação</option>
+                <option value="divisao">Divisão</option>
+                <option value="exponen">Exponencial</option>
+            </select>
+
+        </form>
+       
+        <button type="submit" id="button_calculation" class="button">Calcular</button>
+
+        <section class="border display">
+            <div id="result"></div>
+        </section>
+
+    </main>
+
+    
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
