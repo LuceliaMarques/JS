@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parte 11</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="./index.css">
+
+    </head>
+    <body >
+
+        <main class="display">
+
+            <header class="display">
+                <h1 class="title">Cadastro de Produtos</h1>
+            </header>
+    
+            <section class="container display">
+
+                <section class="display_row">
+                    <form action="/url" method="post" class="form">
+                    
+                        <label for="nome">Produto:</label>
+                        <input type="text" id="produto" placeholder="Nome"/>
+        
+                        <label for="value">Valor:</label>
+                        <input type="text" id="value" placeholder="00.00"/>
+        
+                    </form>
+                
+                    <form action="/url" method="post" class="form">
+        
+                        <label for="descricao">Descrição:</label>
+                        <input type="textarea" id="descricao" placeholder="Sobre o produto"/>
+        
+                    </form>
+                </section>
+                
+                <section class="box display_row">
+    
+                    <button type="button" id="button_incluir" class="button">INCLUIR</button>
+    
+                    <button type="button" id="button_listar" class="button">LISTAR</button>
+    
+                </section>
+
+                <section class="boxTwo display_row">
+    
+                    <form action="/url" method="post" class="form">
+        
+                        <label for="pesquisa">Buscar:</label>
+                        <input type="text" id="pesquisa" placeholder="Digite o que procura..."/>
+        
+                    </form>
+    
+                    <button type="button" id="button_pesquisar" class="button">BUSCAR</button>
+    
+                </section>
+    
+                <section class="display">
+                    <div id="info" class="displayLeft"></div>
+                </section>
+    
+                <section class="box_table">
+                    <table>
+                        <thead>
+                            <th>ID</th>
+                            <th onclick="ordenaProduto()">Produto</th>
+                            <th onclick="ordenaValor()">Valor</th>
+                            <th>Editar</th>
+                            <th>Excluir</th>
+                        </thead>
+                        <tbody id="tbody">
+                            <!-- corpo da tabela a ser criado no JS -->
+                        </tbody>
+                    </table>
+                </section>
+                
+            </section>
+        </main>
+
+        <script src="./index.js"></script>
+
+    </body>
+</html>
