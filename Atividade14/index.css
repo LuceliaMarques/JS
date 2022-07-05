@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(77, 71, 66);
+}
+
+/* <----------------------------- MENU / BUTTONS -----------------------------> */
+
+.navbar{
+    width: 50vw;
+    height: 15vh;
+}
+
+button[type="button"]{
+    width: 10vw;
+    height: 7vh;
+    text-align: center;
+    border: 1px solid rgb(77, 71, 66);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color:rgb( 231, 133, 133);
+    background-color: rgb(77, 71, 66);
+    cursor: pointer;
+    margin-bottom: 2vh;
+
+}
+
+button[type="button"]:hover {
+    background-color:rgb(77, 71, 66);
+    border: 1px solid rgb( 231, 133, 133);
+    color:rgb( 231, 133, 133);
+    transition: 0.2s;
+    
+}
+
+/* <----------------------------- HOME -----------------------------> */
+
+#home{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* <----------------------------- IMAGENS -----------------------------> */
+#galery{
+    width: 100vw;
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb( 102, 87, 73);
+}
+
+.icon{
+    width: 20vw;
+    height: 40vh;
+}
+
+img{
+    width: 70%;
+    height: 100%;
+}
+
+/* <----------------------------- ALINHAMENTO -----------------------------> */
+.card{
+    width: 25vw;
+    height: 50vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* <----------------------------- FOOTER -----------------------------> */
+.footer{
+    width: 100vw;
+    height: 10vh;
+    padding-top: 2vh;
+}
+
+/* <----------------------------- TEXTOS -----------------------------> */
+.title_two{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5vw;
+    font-weight: 200;
+    font-size: 4vh;
+    color: rgb( 231, 133, 133);
+}
