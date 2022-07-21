@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 60%;
+    height: 90%;
+    background-color: #fff;
+    border: 2px solid   rgb(72, 166, 234);
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vh;
+    font-weight: 500;
+    color: rgb(72, 166, 234);
+    margin-bottom: 4vh;
+}
+
+input[type="textarea"]{
+	border: 1px solid  rgb(72, 166, 234);
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    padding-left: 2vh;
+    width: 70%;
+    height: 20%;
+    cursor: default;
+    overflow: auto;
+}
+
+.button{
+    width: 17vw;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid  rgb(72, 166, 234);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color:#fff;
+    background-color:  rgb(72, 166, 234);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#fff;
+    border: 1px solid  rgb(72, 166, 234);
+    color: rgb(72, 166, 234);;
+}
+
+.border{
+    width: 80%;
+    height: 25vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+    text-align: left;
+    color:rgb(72, 166, 234);
+}
