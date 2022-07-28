@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.display, #app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container, #valor{
+    width: 45vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#valor{
+    
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+
+#box{
+
+    width: 45vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+div{
+
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid  rgb(75, 95, 109);
+    margin-top: 4vh;
+
+}
+
+span{
+   
+    width: 3vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1vh;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    border: 1px solid  rgb(75, 95, 109);
+    border-radius: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color:rgb(75, 95, 109);
+   
+}
+
+button{
+
+    width: 3vw;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid  rgb(75, 95, 109);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color:#fff;
+    background-color:  rgb(75, 95, 109);
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color:#fff;
+    border: 1px solid  rgb(75, 95, 109);
+    color: rgb(75, 95, 109);
+}
+
+#btn{
+
+    width: 17vw;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid  rgb(75, 95, 109);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color:#fff;
+    background-color:  rgb(75, 95, 109);
+    cursor: pointer;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+
+}
