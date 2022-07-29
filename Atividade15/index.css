@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb( 96, 102, 123);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* <----------------------------- DISPLAY -----------------------------> */
+.display_colum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.display_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container{
+    width: 80vw;
+    height: 12vh;
+    margin-bottom: 5vh;
+    background-color: #ffffff80;
+}
+
+/* <----------------------------- TEXTO -----------------------------> */
+.title{
+    font-family: 'Cookie', sans-serif;
+    font-size: 5vh;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+
+#app{
+    color:#fff;
+}
+
+/* <----------------------------- FORM DATE -----------------------------> */
+input[type="date"]{
+    border: none;
+	border-bottom: 1px solid rgb( 98, 101, 108);
+	padding: 2vh;
+	width: 20vw;
+    height: 5vh;
+}
+
+input[type="date"]:hover{
+    border: 1px solid #000;
+}
+/* <----------------------------- FORM SELECT -----------------------------> */
+
+select{
+    border: none;
+	border-bottom: 1px solid rgb( 98, 101, 108);
+	width: 20vw;
+    height: 5vh;
+	padding-left: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 400;
+    color: #000;
+}
+
+select:hover{
+    border: 1px solid #000;
+}
+/* <----------------------------- BUTTON -----------------------------> */
+button{
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid rgb(77, 71, 66);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color:#fff;
+    background-color: rgb( 96, 102, 123);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#fff;
+    border: 1px solid #000;
+    color:#000;
+    transition: 0.2s;
+}
+
+
+/* <----------------------------- TABLE -----------------------------> */
+
+.box_table{
+    width: 80vw;
+    height: 80vh;
+    margin-top: 5vh;
+}
+table{
+    border-collapse:collapse;
+    border: 1px solid rgb( 98, 101, 108);
+    width: 100%;
+}
+
+table th{
+    background-color: #fff;
+}
+
+table th, td{
+    text-align: center;
+    width: 2vw;
+    height: 2vh;
+    cursor: pointer;
+}
+
+td{
+    color:#fff;
+}
