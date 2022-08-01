@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background-color: rgb( 62, 122, 94);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display_row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:stretch;
+    flex-direction: row;
+}
+
+img{
+    margin-left: 2vw;
+    width: 10vw;
+    height: 30vh;
+}
+
+.title{
+    margin-top: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vh;
+    font-weight: 500;
+    color: rgba(255, 0, 0, 0.544);
+}
+
+/* ---------- BUTTON ----------  */
+.button[type="button"]{
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid rgb( 62, 122, 94);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color: #000;
+    background-image: linear-gradient(to right, red, rgb(90, 15, 15));
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+
+.button[type="button"]:hover {
+    background-color:#fff;
+    border: 1px solid red;
+    color:rgb(75, 112, 92);
+    transition: 0.2s;
+    
+}
+
+/* ---------- RESULT ----------  */
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vh;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.544);
+    margin-top: 4vh;
+}
